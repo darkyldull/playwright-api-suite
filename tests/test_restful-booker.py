@@ -83,7 +83,7 @@ def test_delete(page: Page):
     "additionalneeds" : "Breakfast",
     }
         
-    new_booking = page.request.post("https://restful-booker.herokuapp.com/booking", data = data)
+    new_booking = page.request.post("https://restful-booker.herokuapp.com/booking", data = data2)
 
     booking_id = new_booking.json()["bookingid"]
 

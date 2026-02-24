@@ -8,7 +8,7 @@ Automated UI and API tests using Playwright and Python.
 
 ### UI Tests (saucedemo.com)
 - Page title validation
-- User authentication — valid and invalid credentials
+- User authentication -> valid and invalid credentials
 - Add to cart functionality
 - Full checkout flow
 
